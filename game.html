@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Markdown Editor</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div id="toolbar">
+        <button id="boldBtn" class="btn"><strong>B</strong></button>
+        <button id="italicBtn" class="btn"><em>I</em></button>
+        <button id="codeBtn" class="btn"><code>Code</code></button>
+        <button id="headerBtn" class="btn">Header</button>
+        <button id="linkBtn" class="btn">Link</button>
+        <button id="imageBtn" class="btn">Image</button>
+        <button id="quoteBtn" class="btn">Quote</button>
+        <button id="listBtn" class="btn">List</button>
+        <button id="ulBtn" class="btn">UL</button>
+        <button id="olBtn" class="btn">OL</button>
+      </div>
+      <textarea id="editor"></textarea>
+      <button id="convertBtn" class="btn">Convert</button> 
+      <button id="downloadBtn" class="btn">Download</button> 
+      <div id="preview"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
